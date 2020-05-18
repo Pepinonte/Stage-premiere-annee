@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(64, 207, 116, 0.2);
+}
+
+nav {
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .btnN {
+    background-color: rgb(66, 91, 92, 0.6);
+    padding: 10px;
+    margin: 8%;
+    color: black;
+    border: solid 2px;
+    border-radius: 25px;
+  }
+  
+  .diapo{
+      height: 500px;
+      background-image: url("21465530-pelle-chargeuse-pelleteuse-avec-déchargement-du-sable-à-des-travaux-de-terrassement-dans-le-chantier-de-.jpg");
+      background-size: cover;
+      background-position: center;
+      margin-top: 100px;
+      border-radius: 10px;
+  }
+
+  .imgBar{
+    height: 100px;
+    background-color: blue;
+    border-radius: 10px;
+  }
