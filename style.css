@@ -1,13 +1,18 @@
 body{
-    background-color: rgb(64, 207, 116, 0.2);
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(64, 207, 116, 0.1);
 }
 
-nav {
-    margin: 30px;
-    border: 2px solid black;
-    border-radius: 200px;
+  nav {
+    padding: 0px;
+    margin: 0px;
+    display:flex;
+    justify-content: space-around;
     background-size: cover;
     background-position: center;
+    background-color: rgb(64, 207, 116, 0.3);
+
   }
   
   a {
@@ -15,25 +20,41 @@ nav {
   }
   
   .btnN {
-    background-color: rgb(66, 91, 92, 0.6);
-    padding: 10px;
-    margin: 8%;
-    color: black;
-    border: solid 2px;
-    border-radius: 25px;
+    margin:0 10px;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    transition: color 0.4s ease;
+  }
+
+  .btnN:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+  }
+
+  .loupe{
+    height: 20px;
+    width: 20px;
+    background-image: url("kisspng-magnifying-glass-brand-logo-clip-art-5af4553e38d552.6324337015259620462328.png");
+    background-size: cover;
+    background-position: center;
+
   }
   
   .diapo{
+      
       height: 500px;
       background-image: url("21465530-pelle-chargeuse-pelleteuse-avec-déchargement-du-sable-à-des-travaux-de-terrassement-dans-le-chantier-de-.jpg");
       background-size: cover;
       background-position: center;
-      margin-top: 100px;
-      border-radius: 10px;
   }
 
   .imgBar{
     height: 100px;
-    background-color: blue;
-    border-radius: 10px;
+    background-color: blueviolet;
+  }
+
+  .piedDePage{
+    margin-top: 10px;
+    height: 100px;
+    background-color: blueviolet;
   }
