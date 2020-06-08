@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
 
+<<<<<<< HEAD
+  <?php $title = "Accueil";?>
+  
+  </head>
+  <body>
+    <?php require 'pages/header.php'; ?>
+=======
     <title>Pyrenees environnement</title>
   </head>
   <body>
@@ -28,6 +35,7 @@
         </nav>
       </div>
     </header>
+>>>>>>> 9e4295e41a257e1bddfc73326aaf27c0799f7245
 
     <div class="contentDiapo">
 
@@ -39,6 +47,9 @@
 
     </div>
 
+<<<<<<< HEAD
+    <?php require 'pages/footer.php'; ?>
+=======
     <div class="piedDePage">
 
       <div class="copyright">
@@ -53,6 +64,7 @@
       </div>
 
     </div>
+>>>>>>> 9e4295e41a257e1bddfc73326aaf27c0799f7245
     
   </body>
 </html>

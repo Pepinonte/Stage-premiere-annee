@@ -1,63 +1,62 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(64, 207, 116, 0.1);
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(64, 207, 116, 0.1);
+}
+
+nav {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(64, 207, 116, 0.3);
+}
+
+a {
+  text-decoration: none;
+}
+
+.btnN {
+  margin: 0 10px;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  transition: color 0.4s ease;
+}
+
+.btnN:hover {
+  color: rgb(0, 0, 0);
+  transition: 0.4s;
+}
+
+.loupe {
+  height: 20px;
+  width: 20px;
+  background-image: url("kisspng-magnifying-glass-brand-logo-clip-art-5af4553e38d552.6324337015259620462328.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.diapo {
+  height: 350px;
+  background-image: url("21465530-pelle-chargeuse-pelleteuse-avec-déchargement-du-sable-à-des-travaux-de-terrassement-dans-le-chantier-de-.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.imgBar {
+  height: 100px;
+  background-image: url("Capture\ d’écran\ du\ 2020-05-26\ 11-33-40.png");
   }
-  
-  nav {
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    justify-content: space-around;
-    background-size: cover;
-    background-position: center;
-    background-color: rgb(64, 207, 116, 0.3);
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  .btnN {
-    margin: 0 10px;
-    color: rgba(0, 0, 0, 0.6);
-    text-decoration: none;
-    transition: color 0.4s ease;
-  }
-  
-  .btnN:hover {
-    color: rgb(0, 0, 0);
-    transition: 0.4s;
-  }
-  
-  .loupe {
-    height: 20px;
-    width: 20px;
-    background-image: url("kisspng-magnifying-glass-brand-logo-clip-art-5af4553e38d552.6324337015259620462328.png");
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .diapo {
-    height: 350px;
-    background-image: url("21465530-pelle-chargeuse-pelleteuse-avec-déchargement-du-sable-à-des-travaux-de-terrassement-dans-le-chantier-de-.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .imgBar {
-    height: 100px;
-    background-image: url("Capture\ d’écran\ du\ 2020-05-26\ 11-33-40.png");
-    }
-  
-  .piedDePage {
-    margin-top: 10px;
-    height: 100px;
-    background-image: url("https://via.placeholder.com/1820x100");
-  }
-  
-  .desc {
-    width: 300px;
-    display: flex;
-  }
-  
+
+.piedDePage {
+  margin-top: 10px;
+  height: 100px;
+  background-image: url("https://via.placeholder.com/1820x100");
+}
+
+.desc {
+  width: 300px;
+  display: flex;
+}

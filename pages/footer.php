@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles\styleFooter.css" />
+<<<<<<< HEAD
+    <link rel="stylesheet" href="pages\styles\styleFooter.css" />
+
+    <title>Pyrenees environnement</title>
+=======
     <title>Document</title>
+>>>>>>> 9e4295e41a257e1bddfc73326aaf27c0799f7245
 </head>
 <body>
 
