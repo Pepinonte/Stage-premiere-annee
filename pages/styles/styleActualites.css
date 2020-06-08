@@ -47,14 +47,14 @@ body {
   
   .imgBar {
     height: 100px;
-    background-image: url("Capture\ d’écran\ du\ 2020-05-26\ 11-33-40.png");
+    background-image: url("https://via.placeholder.com/1820x100");
 
     }
   
   .piedDePage {
     margin-top: 10px;
     height: 100px;
-    background-color: blueviolet;
+    background-image: url("https://via.placeholder.com/1820x100");
   }
   
   .desc {

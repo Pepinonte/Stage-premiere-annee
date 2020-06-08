@@ -13,17 +13,17 @@
 
       <div>
         <nav class="mainMenu">
-          <a href="index.html" class="btnN btnN_accueil">Accueil</a>
-          <a href="\pages\entreprise.html" class="btnN btnN_entreprise"
+          <a href="index.php" class="btnN btnN_accueil">Accueil</a>
+          <a href="\pages\entreprise.php" class="btnN btnN_entreprise"
             >Entreprise</a
           >
-          <a href="\pages\actualites.html" class="btnN btnN_actualites"
+          <a href="\pages\actualites.php" class="btnN btnN_actualites"
             >Actualités</a
           >
-          <a href="\pages\realisations.html" class="btnN btnN_realisations"
+          <a href="\pages\realisations.php" class="btnN btnN_realisations"
             >Réalisations</a
           >
-          <a href="\pages\contact.html" class="btnN btnN_contact">Contact</a>
+          <a href="\pages\contact.php" class="btnN btnN_contact">Contact</a>
           <div class="loupe"></div>
         </nav>
       </div>

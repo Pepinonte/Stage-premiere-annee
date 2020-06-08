@@ -1,0 +1,16 @@
+.piedDePage {
+    height: 50px;
+    margin-top: 100px;
+    padding: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-image: url("https://via.placeholder.com/1820x100");
+}
+  
+.copyright, .copyright2, .copyright3{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}

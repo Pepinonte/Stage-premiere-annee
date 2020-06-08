@@ -33,28 +33,47 @@ a {
 .loupe {
   height: 20px;
   width: 20px;
-  background-image: url("kisspng-magnifying-glass-brand-logo-clip-art-5af4553e38d552.6324337015259620462328.png");
+  background-image: url("pages/styles/img/kisspng-magnifying-glass-brand-logo-clip-art-5af4553e38d552.6324337015259620462328.png");
   background-size: cover;
   background-position: center;
+}
+
+.contentDiapo{
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .diapo {
   height: 500px;
   width: 900px;
-  background-image: url("21465530-pelle-chargeuse-pelleteuse-avec-déchargement-du-sable-à-des-travaux-de-terrassement-dans-le-chantier-de-.jpg");
+  background-image: url("pages/styles/img/21465530-pelle-chargeuse-pelleteuse-avec-déchargement-du-sable-à-des-travaux-de-terrassement-dans-le-chantier-de-.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .imgBar {
   height: 100px;
-  background-image: url("Capture\ d’écran\ du\ 2020-05-26\ 11-33-40.png");
-  }
+  background-image: url("https://via.placeholder.com/1820x100");
+}
 
 .piedDePage {
-  margin-top: 10px;
-  height: 100px;
-  background-color: blueviolet;
+  height: 50px;
+  margin-top: 100px;
+  padding: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-image: url("https://via.placeholder.com/1820x100");
+}
+
+.copyright, .copyright2, .copyright3{
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
 }
 
 .desc {
