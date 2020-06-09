@@ -5,16 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styleContact.css" />
 
-<<<<<<< HEAD
     <?php $title = "Contact";?>
-    
-=======
-    <title>Document</title>
->>>>>>> 9e4295e41a257e1bddfc73326aaf27c0799f7245
 </head>
 <body>
   
   <?php require 'header.php'; ?>
+
+  <div class="main">
+
+    <form action="" method="post">
+
+      <div class="champ champ-name">
+        <div>
+          <label for="name">Nom :</label>
+        </div>
+        <div>
+          <input type="text" id="name" name="user_name">
+        </div>
+      </div>
+      <div class="champ champ-mail">
+        <div>
+          <label for="mail">e-mail :</label>
+        </div>
+        <div>
+          <input type="email" id="mail" name="user_mail">
+        </div>
+      </div>
+      <div class="champ champ-sujet">
+        <div>
+          <label for="sujet">Sujet :</label>
+        </div>
+        <div>
+          <input type="text" id="sujet" name="sujet">
+        </div>
+      </div>
+
+      <div class="champ champ-msg">
+        <div>
+          <label for="msg">Message :</label>
+        </div>
+        <div>
+          <textarea id="msg" name="user_message"></textarea>
+        </div>
+      </div>
+      <div class="champ-envoyer">
+          <button type="submit">Envoyer le message</button>
+      </div>
+
+    </form>
+  </div>
+
   <?php require 'footer.php'; ?>
 
 
