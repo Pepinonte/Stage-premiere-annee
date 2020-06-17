@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styleContact.css" />
 
-    <?php $title = "Contact";?>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styleContact.css" />
+
+  <?php $title = "Contact"; ?>
 </head>
+
 <body>
-  
+
   <?php require 'header.php'; ?>
 
   <div class="main">
@@ -23,10 +25,20 @@
           <input type="text" id="name" name="user_name">
         </div>
       </div>
+
+      <div>
+        <p>Status:</p>
+        <input type="radio" id="Profesionnel" name="drone" value="Profesionnel" checked>
+        <label for="Profesionnel">Profesionnel</label>
+        <input type="radio" id="Particulier" name="drone" value="Particulier">
+        <label for="Particulier">Particulier</label>
+      </div>
+
       <div class="champ champ-mail">
         <div>
           <label for="mail">e-mail :</label>
         </div>
+
         <div>
           <input type="email" id="mail" name="user_mail">
         </div>
@@ -49,7 +61,7 @@
         </div>
       </div>
       <div class="champ-envoyer">
-          <button type="submit">Envoyer le message</button>
+        <button type="submit">Envoyer le message</button>
       </div>
 
     </form>
@@ -59,4 +71,5 @@
 
 
 </body>
+
 </html>
