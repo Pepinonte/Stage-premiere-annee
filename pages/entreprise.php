@@ -17,7 +17,26 @@
           <h1>Presentation Entreprise</h1>
         </div>
         <div class="description">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi nesciunt id fugit beatae saepe. Distinctio doloremque dolores, libero asperiores voluptas nostrum, quisquam molestiae quasi tempora omnis harum nemo consequatur maiores sunt repellendus fuga est voluptatibus commodi assumenda voluptates explicabo officiis alias. Provident quaerat hic qui libero repellendus saepe eaque illum, porro facere nam ab quia tenetur, corrupti sit error veniam atque ipsum dignissimos voluptatum eligendi mollitia aliquam minus quos eum! Excepturi minus deleniti, corporis dicta ut harum eligendi aut possimus eveniet. Velit nulla corrupti vel perspiciatis, molestiae esse quia provident. Inventore praesentium molestias enim vitae obcaecati. Sint fuga beatae, dolor repellat fugiat magni placeat sed, deserunt molestias doloribus eum doloremque architecto deleniti eos nihil amet? Laudantium, dicta assumenda quidem mollitia molestiae minima. Pariatur debitis illum impedit at ratione in laudantium vel, quia, accusamus eligendi aperiam nobis recusandae sapiente! Adipisci, voluptatum sunt vero rem numquam, maxime quo nesciunt ipsa aut recusandae iure doloribus officiis deleniti sint illum culpa sequi. Voluptas odit atque enim vero veniam, eaque ullam soluta debitis eum et, dolorum dolores accusamus unde rem vel a quas ad facere tempore? Aperiam porro magnam doloribus omnis itaque, eligendi tempore inventore suscipit, ipsum voluptatem distinctio architecto temporibus illum beatae perspiciatis vel!
+
+        <p><h4>PRESENTATION SARL PYRENEES ENVIRONNEMENT</h4></p>
+        
+
+        <p>
+          La SARL PYRENEES ENVIRONNEMENT est une TPE de création récente – Avril 2008 –
+
+          Spécialisée dans la récupération – transport – recyclage et traitement de déchets non dangereux, elle intervient aussi pour des chantiers de BTP. de moyenne importance.
+
+          L’entreprise est située au cœur des Pyrénées. Elle peut intervenir rapidement sur l’ensemble du département et le sud de Midi-Pyrénées tout en garantissant des prestations de qualité et le respect des délais d’exécution.
+          Elle collabore avec des entreprises locales d’une plus grande importance : des bureaux d’études ou de contrôle garantissent à la clientèle un critère qualité, ceci tout en conservant son indépendance dans le choix des fournisseurs.
+        </p>
+
+        <p><h4>Moyens humains et matériels</h4></p>
+
+        <p>
+        Pour mener à bien les missions qui lui sont confiées, elle s’entoure du personnel adéquat lors de chaque chantier. 
+        Equipée  de matériel spécifique pour l’exécution des travaux elle peut intervenir dans tous types et conditions de chantier.
+
+        </p>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-.contentDiapo{
+.contentDiapo {
   margin: 50px;
   display: flex;
   justify-content: center;
@@ -12,11 +12,6 @@
   background-image: url("pages/styles/img/21465530-pelle-chargeuse-pelleteuse-avec-déchargement-du-sable-à-des-travaux-de-terrassement-dans-le-chantier-de-.jpg");
   background-size: cover;
   background-position: center;
-}
-
-.imgBar {
-  height: 100px;
-  background-image: url("https://via.placeholder.com/1820x100");
 }
 
 .desc {
