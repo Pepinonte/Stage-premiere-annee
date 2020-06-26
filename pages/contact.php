@@ -61,11 +61,34 @@
         </div>
       </div>
       <div class="champ-envoyer">
-        <button type="submit">Envoyer le message</button>
+        <button name="valider1" type="submit">Envoyer le message</button>
       </div>
 
     </form>
   </div>
+
+  <?php
+    if (isset($_POST['valider1'])) {
+      $prenom = $_POST['user_name'];
+      $mail = $_POST['user_mail'];
+      $sujet = $_POST['sujet'];
+      $msg = $_POST['user_message'];
+      $date = new DateTime();
+
+      echo 'send';
+
+      require 'connexionBdd.php';
+      try{
+        $sql = 'INSERT INTO `client` (`idclient`, `nom`, `prenom`) VALUES ("", "' . $prenom . '", "")';
+        $sql2 = 'INSERT INTO ` message`(`idmessage`, `date`, `sujet`, `msg`) VALUES ("", "' .$date->format('Y-m-d'). '", "' . $sujet . '", "' . $msg . '")';
+        $connexion->exec($sql);
+        $connexion->exec($sql2);
+      }
+      catch(Exception $e){
+        echo 'requette fail';
+      }
+    }
+  ?>
 
   <?php require 'footer.php'; ?>
 
